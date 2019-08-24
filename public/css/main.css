@@ -1,0 +1,84 @@
+.match_pick p{
+	width: fit-content;
+    display: inline-block;
+    margin: 0px 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.match_pick{
+	margin-bottom: 15px;
+}
+
+.match_pick .teams{
+	margin-right: 5px !important;
+}
+
+.accums{
+	border: 1px solid black;
+	margin-bottom: 20px;
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+
+.results{
+	padding: 40px 0px;
+}
+
+.level , .match_info{
+	padding: 5px 0px;
+}
+
+.results p{
+	font-size: 14px;
+	margin-bottom: 0px !important;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.level{
+	font-family: 'Montserrat', sans-serif;
+	width: 9.2%;
+	display:inline-block;
+}
+
+.match_info{
+	width: 90%;
+	display:inline-block;
+}
+
+.create{
+	padding: 30px 0px;
+}
+
+.match_pick_add .teams{
+	margin-right: 10px !important;
+}
+
+.results [id="1"] {background: #DC143C;}
+.results [id="2"] {background: #FF7F50;}
+.results [id="3"] {background: #F0E68C;}
+.results [id="4"] {background: #2E8B57;}
+.results [id="5"] {background: #4169E1;}
+
+@media screen and (max-width: 767px){
+	.level {
+    	width: 8.5%;
+    }
+
+    .accums{
+    	width: 100%;
+    }
+
+    .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
+    	width: 100% !important;
+    	margin-bottom: 5px;
+    }
+
+    .bootstrap-select .show{
+    	width: 100% !important;
+    	min-width: 100% !important;
+    	max-width: 100% !important;
+    }
+}
